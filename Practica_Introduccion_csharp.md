@@ -6,9 +6,9 @@ Luego hacer que uno de los cubos cambie el tamaño y que otro cambie la posición.
 
 ![Captura del código](Imagenes/Ejercicio1final.png)
 
-Creé como variables el color del cubo indicando que por defecto sea rojo y una variable float para el tamaño. Así, también coloque variables apra el rigidbody, transform y renderer. En Strat obtuve así el color rojo y el tamaño que le puse por defecto.
+Creé como variables el color del cubo indicando que por defecto sea rojo y una variable float para el tamaño. Así, también coloque variables apra el rigidbody, transform y renderer. En Start obtuve así el color rojo y el tamaño que le puse por defecto.
 
-Para cambiarlo, creé acciones para el transform y el rigidbody. Active el transform de uno de los cubos en el inspector, y a otro cubo le hice lo mismo pero con el rigidbody.Si el tamaño es menos al valor de la variable de tamaño máximo que puse, este crecerá hasta ese tamaño. Al cubo con rigidbody activado simplemente lo desplacé a la derecha con un valor de 10.
+Para cambiarlo, creé acciones para el transform y el rigidbody. Active el transform de uno de los cubos en el inspector, y a otro cubo le hice lo mismo pero con el rigidbody.Si el tamaño es menos que el valor de la variable de tamaño máximo que puse, este crecerá hasta ese tamaño. Al cubo con rigidbody activado simplemente lo desplacé a la derecha con un valor de 10.
 
 ![Gif](Imagenes/Ejercicio1.gif)
 
@@ -18,23 +18,23 @@ Simplemente agregué un cubo a la escena el cuál tiene que moverse en base a las 
 
 ![Captura del código](Imagenes/Ejercicio2Final.png)
 
-Variable transform y la velocidad a la que se moverá. Luego, le asigné las teclas en base al valor horizontal 0. De este modo, si va a la derecha se añade 1 de valor, y si va a la izquierda se le quita 1. Lo mismo para ir en vertical (para adelante y para detrás). Puse Time.deltaTime para que sea independiente a los FPS que pueda generar cada ordenador. 
+Variable transform y la velocidad a la que se moverá. Luego, le asigné las teclas en base al valor horizontal 0. De este modo, si va a la derecha se añade 1 de valor, y si va a la izquierda se le quita 1. Lo mismo para ir en vertical (para adelante y para atrás). Puse Time.deltaTime para que sea independiente a los FPS que pueda generar cada ordenador. 
 
 ![Gif](Imagenes/Ejercicio2.gif)
 
-Para el ejercicio 3, al escribir la instrucción  transform.translate(2,1,1),daba error. Sin emabrgo, el error es que translate está mal escrito para el código. La T del comienzo es en mayúscula. 
+Para el ejercicio 3, al escribir la instrucción  transform.translate(2,1,1),daba error. Sin embargo, el error es que translate está mal escrito para el código. La T del comienzo es en mayúscula. 
 
 
 
 ## EJERCICIO 4
-Aqui hay quen identificar un error de ejecución al inicializar una variable. El cubo no cambiaba de coor debido a que la sentencia rend = GetComponent<Renderer>(); estaba incluida como un comentario
+Aqui hay que identificar un error de ejecución al inicializar una variable. El cubo no cambiaba de color debido a que la sentencia rend = GetComponent<Renderer>(); estaba incluida como un comentario
 
 ![Captura del código](Imagenes/Ejercicio3final.png)
 
 
 
 ## EJERCICIO 5
-Hay que identificar un error lógico donde una variable tiene un valor incorrecto. El colorEsperado aigna un valor incorrecto porque lo que esa linea de código hay que quitarla. 
+Hay que identificar un error lógico donde una variable tiene un valor incorrecto. El colorEsperado asigna un valor incorrecto por lo que esa linea de código hay que quitarla. 
 
 ![Captura del código](Imagenes/Ejercicio5Final.png)
 
