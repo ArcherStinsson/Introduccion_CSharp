@@ -36,7 +36,7 @@ Aqui hay quen identificar un error de ejecución al inicializar una variable. El 
 ## EJERCICIO 5
 Hay que identificar un error lógico donde una variable tiene un valor incorrecto. El colorEsperado aigna un valor incorrecto porque lo que esa linea de código hay que quitarla. 
 
-![Captura del código](Imagenes/Ejercicio5final.png)
+![Captura del código](Imagenes/Ejercicio5Final.png)
 
 
 
